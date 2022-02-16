@@ -1,0 +1,22 @@
+﻿  test.cpp
+C:\Users\jizquierdo\source\repos\CommonMS\files\library.h(192,5): warning C4002: hay demasiados argumentos para la invocación de macro "__crt_va_end" de tipo función
+C:\Users\jizquierdo\source\repos\CommonMS\files\library.h(150,1): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\jizquierdo\source\repos\CommonMS\files\games.h(136,19): warning C4018: '>': no coinciden signed/unsigned
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\utility(151,1): warning C4267: 'inicializando': conversión de 'size_t' a '_Ty1'; posible pérdida de datos
+          with
+          [
+              _Ty1=unsigned int
+          ]
+C:\Users\jizquierdo\source\repos\CommonMS\files\library.h(146): message : Vea la referencia a la creación de una instancia de la función plantilla "std::pair<unsigned int,Game *>::pair<size_t&,Game*&,0>(_Other1,_Other2) noexcept" que se está compilando
+          with
+          [
+              _Other1=size_t &,
+              _Other2=Game *&
+          ]
+C:\Users\jizquierdo\source\repos\CommonMS\files\library.h(146): message : Vea la referencia a la creación de una instancia de la función plantilla "std::pair<unsigned int,Game *>::pair<size_t&,Game*&,0>(_Other1,_Other2) noexcept" que se está compilando
+          with
+          [
+              _Other1=size_t &,
+              _Other2=Game *&
+          ]
+  CommomMStests.vcxproj -> C:\Users\jizquierdo\source\repos\CommonMS\files\build\x64\Debug\CommomMStests.exe
