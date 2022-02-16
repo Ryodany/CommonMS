@@ -120,7 +120,7 @@ public:
 
 		for (auto g : other.m_games) {
 			Game* l_game = std::move(g.second);
-			Emplace(g.second);
+			Emplace(l_game);
 		}
 		
 		other.Clear();

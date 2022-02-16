@@ -79,8 +79,8 @@ public:
 
 	FightGame& operator=(FightGame&& other) noexcept {
 		if (this != &other) {
-			std::cout << "Fight game move operator\n";
 			Game::operator=(std::move(other));
+			std::cout << "Fight game move operator\n";
 			other.m_level = 1;
 		}
 
